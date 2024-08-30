@@ -11,12 +11,12 @@ const header = () => {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <img src={Logo}
-          width="150"
+          width="120"
           height="100"
           className="d-inline-block align-top"
           alt="React Bootstrap logo" />
 
-        <Navbar.Brand href="#home">Michael Kores </Navbar.Brand>
+        <Navbar.Brand href="#home">Global Village</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Form className="d-flex">
@@ -28,7 +28,7 @@ const header = () => {
             />
             <Button variant="outline-secondary">Search</Button>
           </Form>
-          <Nav className=" me-auto">
+          <Nav className=" justify-content-end">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">Products</Nav.Link>
             <Nav.Link href="#link">About Us</Nav.Link>
