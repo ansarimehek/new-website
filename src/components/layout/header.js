@@ -4,41 +4,58 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import Logo from '../../assets/logo.jpg'
+import Logo from '../../assets/logo.jpg';
 
-const header = () => {
-  return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
-        <img src={Logo}
-          width="120"
-          height="100"
-          className="d-inline-block align-top"
-          alt="React Bootstrap logo" />
 
-        <Navbar.Brand href="#home">Global Village</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-auto"
-              aria-label="Search"
-            />
-            <Button variant="outline-secondary">Search</Button>
-          </Form>
-          <Nav className=" justify-content-end">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Products</Nav.Link>
-            <Nav.Link href="#link">About Us</Nav.Link>
-            <Nav.Link href="#link">Contact Us</Nav.Link>
 
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-  )
-}
+
+
+  const header = () => {
+    return (
+      <Navbar expand="lg" className="bg-body-tertiary">
+        <Container>
+          <img src={Logo}
+            width="110"
+            height="90"
+            className="d-inline-block align-top"
+            alt="React Bootstrap logo" />
+
+          <Navbar.Brand href="#home">
+            <b>Global Village</b></Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Form className="d-flex">
+              <Form.Control
+                type="search"
+                placeholder="Search"
+                className="me-auto"
+                aria-label="Search"
+              />
+              <Button variant="outline-secondary">Search</Button>
+            </Form>
+            
+
+
+            
+
+
+
+
+
+            <Nav className=" justify-content-end">
+            <Nav.Link href="#link">signIn</Nav.Link>
+              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="#link">Products</Nav.Link>
+              <Nav.Link href="#link">About Us</Nav.Link>
+              <Nav.Link href="#link">Contact Us</Nav.Link>
+
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    )
+  }
+
 
 export default header
+
