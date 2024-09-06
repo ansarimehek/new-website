@@ -52,6 +52,7 @@ const index = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6}>
+            
             <img src={Img1} />
           </Col>
           <Col xs={12} md={6} className="text-start">

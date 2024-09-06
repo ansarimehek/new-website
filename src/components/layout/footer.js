@@ -1,9 +1,11 @@
 import React from 'react'
 import './footer.css'
+import { fa-facebook } from '@awesome.me/kit-KIT_CODE/icons/classic/solid'
+
 
 const footer = () => {
   return (
-    
+
     <footer className="site-footer">
       <div className="container">
         <div className="row">
@@ -35,7 +37,7 @@ const footer = () => {
             </ul>
           </div>
         </div>
-        
+
       </div>
       <div className="container">
         <div className="row">
@@ -47,10 +49,26 @@ const footer = () => {
 
           <div className="col-md-4 col-sm-6 col-xs-12">
             <ul className="social-icons">
-              <li><a className="facebook" href="#"><i className="fa fa-facebook"></i></a></li>
-              <li><a className="twitter" href="#"><i className="fa fa-twitter"></i></a></li>
-              <li><a className="dribbble" href="#"><i className="fa fa-dribbble"></i></a></li>
-              <li><a className="linkedin" href="#"><i className="fa fa-linkedin"></i></a></li>
+              <li>
+                <a className="facebook" href="#">
+                  <i className="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a className="twitter" href="#">
+                  <i className="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a className="dribbble" href="#">
+                  <i className="fa fa-dribbble"></i>
+                </a>
+              </li>
+              <li>
+                <a className="linkedin" href="#">
+                  <i className="fa fa-linkedin"></i>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
