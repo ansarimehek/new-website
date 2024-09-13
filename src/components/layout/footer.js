@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import { fa-facebook } from '@awesome.me/kit-KIT_CODE/icons/classic/solid'
+
 
 
 const footer = () => {
@@ -31,9 +31,7 @@ const footer = () => {
             <ul className="footer-links">
               <li><a href="http://scanfcode.com/about/">About Us</a></li>
               <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
               <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
-              <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
             </ul>
           </div>
         </div>
@@ -51,7 +49,9 @@ const footer = () => {
             <ul className="social-icons">
               <li>
                 <a className="facebook" href="#">
-                  <i className="fa fa-facebook"></i>
+                {/* <FontAwesomeIcon icon={faFacebook} /> */}
+
+                <i className="fa fa-facebook"></i>
                 </a>
               </li>
               <li>
