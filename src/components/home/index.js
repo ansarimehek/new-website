@@ -60,7 +60,7 @@ const index = () => {
           <Col>
             <h1>GLOBAL VILLAGE</h1>
             <p>Global Village Dubai is a vibrant cultural and entertainment destination
-              that brings together the best of the world’s cultures in one place.
+              that brings together the best of the world’s cultures in one place.  
               Global Village in Dubai is a popular cultural, entertainment, and shopping destination that offers a unique experience 
               combining diverse cultural themes with a wide range of attractions. 
               Global Village in Dubai offers a vibrant and diverse experience, combining international culture, entertainment, shopping, and dining.

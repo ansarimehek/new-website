@@ -11,77 +11,49 @@ const index = () => {
     return (
         <>
             <Header />
+
             <Container>
-                <Row className="align-items-center">
-                    <Col xs={12} md={6}>
+                <Row>
+                    <Col>
                         <img src={Img1} />
                     </Col>
-                    <Col xs={12} md={6} className="text-start">
-                        <h1>Right Side Text</h1>
-                        <p>This text is aligned to the right side of the container.</p>
-                    </Col>
+                    <Col><h1>Right Side Text</h1>
+                        <p>This text is aligned to the right side of the container.</p></Col>
                 </Row>
             </Container>
 
             <Container>
-                <Row className="align-items-center">
-                    <Col xs={12} md={6} className="text-end">
+                <Row>
+                    <Col>
                         <h1>Right Side Text</h1>
                         <p>This text is aligned to the right side of the container.</p>
                     </Col>
-                    <Col xs={12} md={6}>
-                        <img src={Img1} />
-                    </Col>
-                </Row>
-            </Container>
-
-            <Container>
-                <Row className="align-items-center">
-                    <Col xs={12} md={6}>
-                        <img src={Img1} />
-                    </Col>
-                    <Col xs={12} md={6} className="text-start">
-                        <h1>Right Side Text</h1>
-                        <p>This text is aligned to the right side of the container.</p>
-                    </Col>
-                </Row>
-            </Container>
-
-            <Container>
-                <Row className="align-items-center">
-                    <Col xs={12} md={6} className="text-end">
-                        <h1>Right Side Text</h1>
-                        <p>This text is aligned to the right side of the container.</p>
-                    </Col>
-                    <Col xs={12} md={6}>
+                    <Col>
                         <img src={Img1} />
                     </Col>
                 </Row>
             </Container>
 
             <Container>
-                <Row className="align-items-center">
-                    <Col xs={12} md={6}>
-                        <img src={Img1} />
-                    </Col>
-                    <Col xs={12} md={6} className="text-start">
-                        <h1>Right Side Text</h1>
-                        <p>This text is aligned to the right side of the container.</p>
-                    </Col>
+                <Row>
+                    <Col>1 of 3</Col>
+                    <Col xs={6}>2 of 3 (wider)</Col>
+                    <Col>3 of 3</Col>
+                </Row>
+                <Row>
+                    <Col>1 of 3</Col>
+                    <Col xs={5}>2 of 3 (wider)</Col>
+                    <Col>3 of 3</Col>
                 </Row>
             </Container>
 
-            <Container>
-                <Row className="align-items-center">
-                    <Col xs={12} md={6} className="text-end">
-                        <h1>Right Side Text</h1>
-                        <p>This text is aligned to the right side of the container.</p>
-                    </Col>
-                    <Col xs={12} md={6}>
-                        <img src={Img1} />
-                    </Col>
-                </Row>
-            </Container>
+
+
+
+
+
+
+
 
             <Footer />
         </>
