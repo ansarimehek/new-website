@@ -5,11 +5,13 @@ import Img1 from '../../assets/img1.jpg';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Footer from '../layout/footer.js';
-
+// import { Link } from 'react-router-dom';
 
 const index = () => {
     return (
         <>
+
+            {/* <Link to="/">Go back to Home</Link> */}
             <Header />
 
             <Container>
