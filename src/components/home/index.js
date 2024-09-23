@@ -17,13 +17,14 @@ import Photo2 from '../../assets/photo2.jpg';
 import Photo3 from '../../assets/photo3.jpg';
 import Photo4 from '../../assets/photo4.jpg';
 import Card from 'react-bootstrap/Card';
-
+// import { Link } from 'react-router-dom';
 
 
 
 const index = () => {
   return (
     <>
+      {/* <Link to="/">Home</Link> */}
       <Header />
 
       <Carousel>
@@ -35,14 +36,14 @@ const index = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={500}>
-          <img src={Banner2} height={750} width={1310} />
+          <img src={Banner2} height={750} width={1310} className="my-5" />
           <Carousel.Caption>
             {/* <h3>Second slide label</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src={Banner3} height={750} width={1310} />
+          <img src={Banner3} height={750} width={1310} className="my-5" />
           <Carousel.Caption>
             {/* <h3>Third slide label</h3>
             <p>
@@ -55,14 +56,14 @@ const index = () => {
       <Container>
         <Row>
           <Col>
-            <img src={Img1} />
+            <img src={Img1} className="my-5" />
           </Col>
           <Col>
-            <h1>GLOBAL VILLAGE</h1>
-            <p>Global Village Dubai is a vibrant cultural and entertainment destination
-              that brings together the best of the world’s cultures in one place.  
-              Global Village in Dubai is a popular cultural, entertainment, and shopping destination that offers a unique experience 
-              combining diverse cultural themes with a wide range of attractions. 
+            <h1 className="my-5">GLOBAL VILLAGE</h1>
+            <p className="my-3">Global Village Dubai is a vibrant cultural and entertainment destination
+              that brings together the best of the world’s cultures in one place.
+              Global Village in Dubai is a popular cultural, entertainment, and shopping destination that offers a unique experience
+              combining diverse cultural themes with a wide range of attractions.
               Global Village in Dubai offers a vibrant and diverse experience, combining international culture, entertainment, shopping, and dining.
               It's a place where visitors can explore the world's cultures in one location, enjoy live performances, and indulge in a variety of activities.
               Whether you're interested in shopping, dining, or experiencing different cultures, Global Village provides a unique and enjoyable destination in Dubai.</p>
@@ -81,7 +82,7 @@ const index = () => {
 
 
       <Carousel>
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={1000} className="my-5">
           <img src={Banner4} height={650} width={1310} />
 
         </Carousel.Item>

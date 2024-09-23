@@ -5,56 +5,33 @@ import Img1 from '../../assets/img1.jpg';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Footer from '../layout/footer.js';
-// import { Link } from 'react-router-dom';
+
 
 const index = () => {
     return (
         <>
 
-            {/* <Link to="/">Go back to Home</Link> */}
+
             <Header />
 
             <Container>
                 <Row>
-                    <Col>
-                        <img src={Img1} />
-                    </Col>
-                    <Col><h1>Right Side Text</h1>
-                        <p>This text is aligned to the right side of the container.</p></Col>
+                    <Col><img src={Img1} className="my-5"  /></Col>
+                    <Col><h1 className="my-5" >Right Side Text</h1></Col>
                 </Row>
             </Container>
 
             <Container>
                 <Row>
                     <Col>
-                        <h1>Right Side Text</h1>
+                        <h1 className="my-5">Right Side Text</h1>
                         <p>This text is aligned to the right side of the container.</p>
                     </Col>
                     <Col>
-                        <img src={Img1} />
+                        <img src={Img1} className="my-5"  />
                     </Col>
                 </Row>
             </Container>
-
-            <Container>
-                <Row>
-                    <Col>1 of 3</Col>
-                    <Col xs={6}>2 of 3 (wider)</Col>
-                    <Col>3 of 3</Col>
-                </Row>
-                <Row>
-                    <Col>1 of 3</Col>
-                    <Col xs={5}>2 of 3 (wider)</Col>
-                    <Col>3 of 3</Col>
-                </Row>
-            </Container>
-
-
-
-
-
-
-
 
 
             <Footer />
