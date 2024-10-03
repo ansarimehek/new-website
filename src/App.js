@@ -1,20 +1,24 @@
-import React from 'react'; 
+import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/home';
-import About from './components/about';
 import Product from './components/product';
+import About from './components/about';
 
 function App() {
   return (
-    <Router> 
+
+    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
         <Route path="/product" element={<Product />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </Router>
   );
 }
 
 export default App;
+
+
+

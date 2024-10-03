@@ -10,6 +10,7 @@ import Photo2 from '../../assets/photo2.jpg';
 import Footer from '../layout/footer.js';
 
 
+
 function SearchBar() {
   const [query, setQuery] = useState('');
 
@@ -21,7 +22,9 @@ function SearchBar() {
 
   return (
     <>
+
       <Header />
+
 
       <Form onSubmit={handleSearch}>
         <InputGroup>
@@ -36,35 +39,45 @@ function SearchBar() {
         </InputGroup>
       </Form>
 
+      {/* <section>
+        <Container>
+          <Row>
+            <Col><img src={Photo2} /></Col>
+
+            <Col><img src={Photo2} /></Col>
+
+            <Col><img src={Photo2} /></Col>
+
+          </Row>
+        </Container>
+      </section> */}
+
       <section>
-
         <Container>
-          <Row className="g-4">
-            <Col><img src={Photo2} /></Col>
-            <Col><img src={Photo2} /></Col>
-            <Col><img src={Photo2} /></Col>
+          {/* First Row */}
+          <Row className="g-3">
+            <Col><img src={Photo2} alt="Description" className="img-fluid" /></Col>
+            <Col><img src={Photo2} alt="Description" className="img-fluid" /></Col>
+            <Col><img src={Photo2} alt="Description" className="img-fluid" /></Col>
+          </Row>
+
+          {/* Second Row */}
+          <Row className="g-3">
+            <Col><img src={Photo2} alt="Description" className="img-fluid" /></Col>
+            <Col><img src={Photo2} alt="Description" className="img-fluid" /></Col>
+            <Col><img src={Photo2} alt="Description" className="img-fluid" /></Col>
+          </Row>
+
+          {/* Third Row */}
+          <Row className="md={3}">
+            <Col><img src={Photo2} alt="Description" className="img-fluid" /></Col>
+            <Col><img src={Photo2} alt="Description" className="img-fluid" /></Col>
+            <Col><img src={Photo2} alt="Description" className="img-fluid" /></Col>
           </Row>
         </Container>
-
-        <Container>
-          <Row>
-            <Col><img src={Photo2} /></Col>
-            <Col><img src={Photo2} /></Col>
-            <Col><img src={Photo2} /></Col>
-          </Row>
-        </Container>
-
-        <Container>
-          <Row>
-            <Col><img src={Photo2} /></Col>
-            <Col><img src={Photo2} /></Col>
-            <Col><img src={Photo2} /></Col>
-          </Row>
-        </Container>
-        
       </section>
 
-      
+
       <Footer />
 
     </>

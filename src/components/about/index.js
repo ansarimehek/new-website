@@ -16,7 +16,7 @@ const index = () => {
 
             <Container>
                 <Row>
-                    <Col><img src={Img1} className="my-5"  /></Col>
+                    <Col><img src={Img1} className="my-5" /></Col>
                     <Col><h1 className="my-5" >Right Side Text</h1></Col>
                 </Row>
             </Container>
@@ -28,7 +28,7 @@ const index = () => {
                         <p>This text is aligned to the right side of the container.</p>
                     </Col>
                     <Col>
-                        <img src={Img1} className="my-5"  />
+                        <img src={Img1} className="my-5" />
                     </Col>
                 </Row>
             </Container>
